@@ -40,7 +40,7 @@ Scenario: Actualizar
     When method delete
     Then status 200
 
-  # Verificar que el producto fue eliminado
+ 
     Given url baseUrl + '/' + pabloId
     When method get
     Then status 200
